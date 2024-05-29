@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+        <input type="text" placeholder="Insira seu nome" id="nome" />
+        <div>
+          <div id="todasenha">
+            <input type="password" placeholder="Insira sua senha" id="senha" >
+            <button onclick="view() " id="olho"><img width="20px" height="20px" src="..\img\3917052.png" alt=""></button> <br>
+          </div>
+          <h5 id="sincorreta" >Usuário ou Senha incorreto</h2>
+        </div>
+        <button onclick="closeview() " id="fechar">Fechar</button>
+      <button onclick="login()" id="entrar">Entrar</button>
+      <p><a href="../Showroom/showroom.html">Visitar showroom</a></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
